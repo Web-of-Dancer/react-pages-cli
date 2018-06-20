@@ -1,0 +1,31 @@
+{
+  "name": "{{name}}",
+  "version": "1.0.0",
+  "description": "{{description}}",
+  "author": "{{author}}",
+  "license": "ISC",
+  "bin": {
+    "wyg": "index.js"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Web-of-Dancer/wyg-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Web-of-Dancer/wyg-cli/issues"
+  },
+  "homepage": "https://github.com/Web-of-Dancer/wyg-cli#readme",
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "commander": "^2.15.1",
+    "download-git-repo": "^1.0.2",
+    "handlebars": "^4.0.11",
+    "inquirer": "^6.0.0",
+    "log-symbols": "^2.2.0",
+    "ora": "^2.1.0"
+  }
+}
