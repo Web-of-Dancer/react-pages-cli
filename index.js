@@ -14,16 +14,16 @@ program.version('1.0.0', '-v, --version')
             inquirer.prompt([
                 {
                     name: 'description',
-                    message: '请输入项目描述'
+                    message: '请输入项目描述:'
                 },
                 {
                     name: 'author',
-                    message: '请输入作者名称'
+                    message: '请输入作者名称:'
                 }
             ]).then((answers) => {
                 const spinner = ora('正在下载模板...');
                 spinner.start();
-                download('https://github.com:Web-of-Dancer/wyg-cli-templet#master', name, {clone: true}, (err) => {
+                download('https://github.com:Web-of-Dancer/react-pages-templet#master', name, {clone: true}, (err) => {
                     if(err){
                         spinner.fail();
                         console.log(symbols.error, chalk.red(err));
