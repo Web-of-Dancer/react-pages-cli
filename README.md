@@ -1,12 +1,13 @@
 # react-pages-cli
-## install react-pages-cli -g
-> npm install react-pages-cli
+
 ## create project
 > react-pages-cli init projectName
 
 > rpc init projectName
+
 ## running project
 > cd projectName & npm run dev
+
 ## build
 > npm run build
 
