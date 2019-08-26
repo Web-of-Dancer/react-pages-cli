@@ -1,11 +1,12 @@
 {
   "name": "react-pages-cli",
-  "version": "1.0.0",
-  "description": "基于Node的react多页应用脚手架",
+  "version": "1.0.1",
+  "description": "一个用于下载React多页应用模板的命令行",
   "author": "a-stephen-w",
   "license": "ISC",
   "bin": {
-    "react-pages-cli": "index.js"
+    "react-pages-cli": "index.js",
+    "rpc": "index.js"
   },
   "main": "index.js",
   "scripts": {
