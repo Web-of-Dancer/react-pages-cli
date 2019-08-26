@@ -1,5 +1,5 @@
 # react-pages-cli
-## install react-pages-cli
+## install react-pages-cli -g
 > npm install react-pages-cli
 ## create project
 > react-pages-cli init projectName
