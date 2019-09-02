@@ -1,6 +1,6 @@
 {
   "name": "react-pages-cli",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "一个用于下载React多页应用模板的命令行",
   "author": "a-stephen-w",
   "license": "ISC",
