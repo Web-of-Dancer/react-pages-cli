@@ -7,7 +7,7 @@ const inquirer = require('inquirer');
 const ora = require('ora');
 const chalk = require('chalk');
 const symbols = require('log-symbols');
-program.version('1.0.3', '-v, --version')
+program.version('1.0.6', '-V, --version')
     .command('init <name>')
     .action((name) => {
         if(!fs.existsSync(name)){
@@ -17,13 +17,17 @@ program.version('1.0.3', '-v, --version')
                     message: '请输入项目描述:'
                 },
                 {
+                    name: 'version',
+                    message: '请输入版本:'
+                },
+                {
                     name: 'author',
                     message: '请输入作者名称:'
                 }
             ]).then((answers) => {
                 const spinner = ora('正在下载模板...');
                 spinner.start();
-                download('https://github.com:Web-of-Dancer/react-webpack-base#master', name, {clone: true}, (err) => {
+                download('https://github.com:Web-of-Dancer/react-webpack-base#v0.0.1', name, {clone: true}, (err) => {
                     if(err){
                         spinner.fail();
                         console.log(symbols.error, chalk.red(err));
@@ -32,6 +36,7 @@ program.version('1.0.3', '-v, --version')
                         const fileName = `${name}/package.json`;
                         const meta = {
                             name,
+                            version: answers.version || '1.0.0',
                             description: answers.description,
                             author: answers.author
                         }

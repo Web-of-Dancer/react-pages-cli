@@ -1,16 +1,17 @@
 # react-pages-cli
 
-## create project
+## Create project
 > react-pages-cli init projectName
 
-## running project
-> cd projectName 
-> npm run build
-> npm run dev
+## Running project
+> cd projectName && npm run dev
 
-## build
+
+## Build
 > npm run build
 
-## 替换模板
-> 实现真正意义上的多页应用， 个页面逻辑代码、样式分离；
-> 暂时未能实现热更新，有什么好的提议欢迎提[#issues](https://github.com/Web-of-Dancer/react-pages-cli/issues)
+## Time Axis
+> v1.0.5 实现真正意义上的多页应用， 个页面逻辑代码、样式分离
+
+> v1.0.6 本地开发预览，实现热更新
+
