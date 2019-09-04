@@ -8,7 +8,7 @@ const ora = require('ora');
 const chalk = require('chalk');
 const symbols = require('log-symbols');
 program.version('1.0.6', '-V, --version')
-    .command('init <name>')
+    .command('create <name>')
     .action((name) => {
         if(!fs.existsSync(name)){
             inquirer.prompt([

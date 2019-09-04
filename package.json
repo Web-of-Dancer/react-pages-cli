@@ -5,13 +5,20 @@
   "author": "a-stephen-w",
   "license": "ISC",
   "bin": {
-    "react-pages-cli": "index.js",
-    "rpc": "index.js"
+    "react-pages-cli": "./bin/index.js",
+    "rpc": "./bin/index.js"
   },
-  "main": "index.js",
+  "main": "./bin/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "keywords": [
+    "react",
+    "webpack",
+    "cli",
+    "pages",
+    "multi"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Web-of-Dancer/react-pages-cli.git"
