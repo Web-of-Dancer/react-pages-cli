@@ -27,7 +27,7 @@ program.version('1.0.6', '-V, --version')
             ]).then((answers) => {
                 const spinner = ora('正在下载模板...');
                 spinner.start();
-                download('https://github.com:Web-of-Dancer/react-webpack-base#v0.0.1', name, {clone: true}, (err) => {
+                download('https://github.com:yoguang/react-webpack-base#v0.0.1', name, {clone: true}, (err) => {
                     if(err){
                         spinner.fail();
                         console.log(symbols.error, chalk.red(err));

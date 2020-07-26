@@ -14,12 +14,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Web-of-Dancer/react-pages-cli.git"
+    "url": "git+https://github.com/yoguang/react-pages-cli.git"
   },
   "bugs": {
-    "url": "https://github.com/Web-of-Dancer/react-pages-cli/issues"
+    "url": "https://github.com/yoguang/react-pages-cli/issues"
   },
-  "homepage": "https://github.com/Web-of-Dancer/react-pages-cli#readme",
+  "homepage": "https://github.com/yoguang/react-pages-cli#readme",
   "dependencies": {
     "chalk": "^2.4.1",
     "commander": "^2.15.1",
